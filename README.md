@@ -25,84 +25,31 @@ wolegequ.skill 是一个 AI 技能文件，帮助你在小红书、抖音、B站
 
 ## 安装方式
 
-### Codex / MiMoCode
+直接告诉你的 AI：
 
-```bash
-# 方式一：直接克隆到 skills 目录
-git clone https://github.com/modayishujia/wolegequ.skill.git ~/.codex/skills/wolegequ.skill
-
-# 方式二：通过 skill-installer 安装
-# 在 Codex 中运行：
-/install-skill wolegequ.skill
+```
+安装这个 skill：https://github.com/modayishujia/wolegequ.skill
 ```
 
-### Claude Code
-
-```bash
-# 克隆到 Claude Code 的 skills 目录
-git clone https://github.com/modayishujia/wolegequ.skill.git ~/.claude/skills/wolegequ.skill
-```
-
-### Cursor
-
-```bash
-# 克隆到项目目录
-git clone https://github.com/modayishujia/wolegequ.skill.git .cursor/skills/wolegequ.skill
-```
-
-### 通用方式
-
-```bash
-# 直接克隆到任意目录
-git clone https://github.com/modayishujia/wolegequ.skill.git
-
-# 然后在你的 AI 工具中引用 SKILL.md 文件
-```
+支持 Codex、MiMoCode、Claude Code、Cursor 等所有支持 skill 的 AI 工具。
 
 ## 使用方式
 
-### 1. 选择赛道
-
-告诉 AI 你想要起号的赛道：
+安装后，直接告诉 AI 你想要起号的赛道：
 
 ```
 我想做健身运动赛道，请帮我起号
 ```
 
-或者：
-
 ```
 我要做美妆护肤，给我一份起号指南
 ```
-
-### 2. 获取起号指南
-
-AI 会自动加载对应赛道的参考文件，为你提供：
-
-- 赛道分析与用户画像
-- 账号定位与人设搭建
-- 内容策略与爆款公式
-- 30 天冷启动计划
-
-### 3. 生成爆款内容
-
-让 AI 帮你生成：
 
 ```
 帮我生成 5 个健身赛道的爆款标题
 ```
 
-```
-给我一个抖音短视频的口播稿模板
-```
-
-### 4. 执行 Day 1 行动
-
-按照 AI 提供的 Day 1 行动清单开始执行：
-
-1. 注册账号 + 完善资料
-2. 发布第一条内容
-3. 去热门博主评论区互动
+AI 会自动加载对应赛道的参考文件，为你提供完整的起号指南、爆款模板和 Day 1 行动清单。
 
 ## 文件结构
 
